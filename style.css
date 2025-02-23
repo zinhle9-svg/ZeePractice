@@ -1,0 +1,20 @@
+.row {
+ margin:auto;
+ padding: 10px;
+}
+* {
+ box-sizing: border-box;
+} 
+.row {
+ display:flex;
+}
+.column {
+ flex: 33.33%;
+ padding: 10px;
+ align-content: center;
+ margin: 50px;
+}
+.img {
+ width: 350px;
+ height: 250px;
+}
